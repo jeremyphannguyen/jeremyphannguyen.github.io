@@ -1,5 +1,9 @@
 /* Style */
 
+html * {
+	font-family: "Helvetica", sans-serif;
+}
+
 .wrapper {
 	display: flex;
 	width: 100%;
@@ -18,12 +22,16 @@
 	padding-top: 20px;
 }
 
+#sidebar.active {
+    margin-left: -250px;
+}
+
 /* The navigation menu links */
 
 #sidenav a {
 	padding: 6px 16px 6px 16px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
  	color: #818181;
 	display: block;
 }
@@ -38,21 +46,21 @@
 
 .portrait {
 	padding: 6px 16px 6px 16px;
-	font-size: 20px;
+	font-size: 15px;
 	color: #818181;
 	display: block;
 }
 
 .list-sidebar{
 	padding: 6px 16px 6px 16px;
-	font-size: 20px;
+	font-size: 15px;
 	color: #818181;
 	display: block;
 }
 
 .contact-info{
 	padding: 6px 16px 6px 16px;
-	font-size: 20px;
+	font-size: 15px;
 	color: #818181;
 	display: block;
 }
@@ -72,7 +80,14 @@
 	.sidenav a {font-size: 18px;}
 }
 
-
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
 
 
 
