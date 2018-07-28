@@ -1,3 +1,9 @@
+/* Style */
+
+html * {
+	font:"Helvetica";
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -5,9 +11,15 @@
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 340px;
+    max-width: 340px;
     min-height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: rgba(255, 99, 71, 0.6);
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
 #sidebar .sidebar-header {
