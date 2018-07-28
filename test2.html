@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body style ="background-color:white;">
+<head>
+
+	<!-- Starter Material -->
+
+	<title>Jeremy Phan Nguyen</title>
+
+	<link rel="stylesheet" href="style.css">
+	<!-- Our Custom CSS -->
+	<link rel="stylesheet" href="style2.css">
+	<!-- Scrollbar Custom CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+	malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+	
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+		                     bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/
+		     jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/
+		     bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-- Web content -->
+
+<div class="wrapper">
+
+<!-- Sidebar -->
+
+<nav id="sidebar">
+	<!-- Image of me -->
+	<div class="portrait">
+		<img src="imgname.jpg" class="img-circle" alt="Bird">
+		<h5>Jeremy Phan Nguyen<h5>
+	</div>
+	<!-- Links -->
+	<ul class="list-sidebar">
+		<li>
+			<a href="#">About Me</a>
+		</li>
+		<li>
+			<a href="#">Experience</a>
+		</li>
+		<li>
+			<a href="#">Projects</a>
+		</li>
+		<li>
+			<a href="#">Education</a>
+		</li>
+		<li>
+			<a href="#">Skills</a>
+		</li>
+		<li>
+			<a href="#">Contact Me</a>
+		</li>
+	</ul>
+	<!-- Social Media -->
+	<!-- Resume -->
+	<!-- Contact Info -->
+	<div class="contact-info">
+		<h4>Contact Info</h4>
+		<h5>Jeremy Phan Nguyen</h5>
+		<h5>jeremyphan04@gmail.com</h5>
+		<h5>1(619)467-6668</h5>
+	</div>
+
+</nav>
+
+<!-- Page Content -->
+
+<div class="main">
+	
+	<!-- Button info -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+            </div>
+        </nav>
+
+	<!-- Information Content -->
+	
+	<h3>About Me</h3>
+	<p>Info about me</p>
+</div>
+
+<!-- End Content -->
+
+</div>
+
+<!-- Java -->
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity=
+	        "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abt
+		TE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/
+	        popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGx
+		aGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/
+	        bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99
+		KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous
+    "></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar
+	        -plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
+    </script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+</body>
+</html>
