@@ -60,9 +60,10 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    /*background: #7386D5;*/
     color: #fff;
     transition: all 0.3s;
+    background-image: url('images/mountains.jpg');
 }
 
 #sidebar.active {
