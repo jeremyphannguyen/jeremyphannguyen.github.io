@@ -62,7 +62,7 @@ a:focus {
     z-index: 999;
     color: #fff;
     transition: all 0.3s;
-    background-image: url('images/mountains.jpg');
+    background-image: url('images/mountains.jpg') !important;
     background-repeat: no-repeat;
 }
 
