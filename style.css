@@ -26,7 +26,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #e6e6e6;
+    background: #f6f6f6;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -62,9 +62,9 @@ a:focus {
     z-index: 999;
     color: #fff;
     transition: all 0.3s;
-    background-image: url('images/ghost.jpg') !important;
+    background-image: url('images/sunset.jpg') !important;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 #sidebar.active {
@@ -89,7 +89,7 @@ a:focus {
 #sidebar ul li a {
 	text-align: center;
     /*padding: 10px;*/
-    font-size: 0.9em;
+    font-size: 2em;
     display: block;
 }
 
