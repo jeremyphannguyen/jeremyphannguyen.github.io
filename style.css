@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Helvetica', sans-serif;
-    background: #fafafa;
+    background: #ffffff;
 }
 
 p {
@@ -86,8 +86,9 @@ a:focus {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
+	text-align: center;
+    /*padding: 10px;*/
+    font-size: 0.8em;
     display: block;
 }
 
