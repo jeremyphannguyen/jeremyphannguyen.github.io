@@ -60,9 +60,9 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    color: #fff;
+    color: #4d4d4d;
     transition: all 0.3s;
-    background-image: url('images/sunset.jpg') !important;
+    /* background-image: url('images/sunset.jpg') !important; */
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
