@@ -60,11 +60,11 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    color: #4d4d4d;
+    color: #f2f2f2;
     transition: all 0.3s;
     /* background-image: url('images/sunset.jpg') !important; */
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); */
 }
 
 #sidebar.active {
@@ -73,7 +73,6 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    text-align: center;
 }
 
 #sidebar ul.components {
